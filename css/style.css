@@ -2,6 +2,10 @@ body
 {
 background-color: green;
 }
+.move
+{
+    margin-left: 80%;
+}
 nav
 {
     background-color: mediumseagreen;
@@ -24,9 +28,9 @@ nav ul li a
     display: block;
     padding: 10px 15px;
     border-radius: 3px;
-    transition: 0.3s ease all;
+    transition: 0.7s ease all;
 }
-nav ul li a :hover
-{
-    background:green;
+nav ul li a:hover{
+    background: darkgreen;
+
 }
